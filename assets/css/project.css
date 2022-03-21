@@ -225,6 +225,23 @@ a:hover {
   margin: 0;
 }
 
+p,
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card h1.title-div {
+  margin: 0;
+  padding: 0;
+}
+
+.card .project-desc {
+  width: 100%;
+  height: 35%;
+  margin: 0;
+}
+
 .card .title {
   padding-bottom: 2rem;
   margin-top: 0em;
@@ -409,9 +426,13 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
     margin-bottom: 0px;
     font-size: 3rem;
+  }
+  .card .project-desc {
+    margin-bottom: 0px;
+    font-size: 1rem;
   }
 }
 
@@ -421,7 +442,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
     font-size: 3rem;
   }
 }
@@ -432,7 +453,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -444,7 +465,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -456,7 +477,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -468,7 +489,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     font-size: 2rem;
   }
 }
@@ -478,7 +499,6 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -490,7 +510,6 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -507,7 +526,6 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
     font-size: 2rem;
   }
 }
