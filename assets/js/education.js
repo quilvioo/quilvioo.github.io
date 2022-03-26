@@ -12,7 +12,7 @@ const moocscards = [
   {
     title: "Algorithms and Data Structures in Python",
     cardImage: "assets/images/education-page/udemy2.svg",
-    moocLink: "https://gale.udemy.com/certificate/UC-ecd941fd-8e38-4df4-b509-8b25dd0bb2ff/",
+    moocLink: "https://www.udemy.com/certificate/UC-ecd941fd-8e38-4df4-b509-8b25dd0bb2ff/",
   },
   // {
   //   title: "Cryptography",
